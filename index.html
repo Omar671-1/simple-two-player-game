@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Two-Player Word Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Two-Player Word Game</h1>
+  <div class="players">
+    <div class="player" id="player1">
+      <h2>Player 1</h2>
+      <input type="text" id="player1Input" placeholder="Enter a word">
+      <button onclick="checkWord(1)">Submit</button>
+    </div>
+    <div class="player" id="player2">
+      <h2>Player 2</h2>
+      <input type="text" id="player2Input" placeholder="Enter a word">
+      <button onclick="checkWord(2)">Submit</button>
+    </div>
+  </div>
+  <div id="message"></div>
+  <script src="script.js"></script>
+</body>
+</html>
